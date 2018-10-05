@@ -21,14 +21,14 @@ app.post("/api/form", (req, res) => {
     host: "smtp.gmail.com",
     port: 587,
     auth: {
-      user: "<email_here>",
-      pass: "<password_here>"
+      user: "<YOUR_EMAIL>",
+      pass: "YOUR_PASSWORD"
     }
   });
 
   let mailOptions = {
     from: req.body.email, // sender address
-    to: "<email_here>", // list of receivers
+    to: "<DESTINAION_EMAIL>", // list of receivers
     subject: "New Message", // Subject line
     email: req.body.email, // plain text body
     html: htmlEmail // html body

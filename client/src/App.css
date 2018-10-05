@@ -181,7 +181,7 @@ input[type="email"]:focus {
   }
 
   .s-div .bottom-show {
-    margin-top: 40px;
+    margin-top: 70px;
   }
 
   .pp-div .privacy-card {
@@ -202,5 +202,8 @@ input[type="email"]:focus {
 @media (min-width: 1020px) {
   .left-content {
     margin-top: 120px;
+  }
+  .s-div .absolute-bottom-left {
+    display: none;
   }
 }

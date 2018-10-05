@@ -177,7 +177,8 @@ class ContactForm extends Component {
             </p>
 
             <p className="text-center mt-4">
-              Voit myös soittaa meille: 0000 000000 (ark. 00-00)
+              Voit myös soittaa meille:{" "}
+              <a href="tel:0000 000000">0000 000000</a> (ark. 00-00)
             </p>
           </CardBody>
         </Card>
