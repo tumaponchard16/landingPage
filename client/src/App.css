@@ -1,0 +1,168 @@
+body {
+  background-color: #f3f3f3 !important;
+}
+.jumbotron {
+  /* background: linear-gradient(rgba(12, 12, 12, 0.35), rgba(12, 12, 12, 0.35)),
+    url("./img/winter-670314_1920.jpg"); */
+
+  background: linear-gradient(rgba(12, 12, 12, 0.65), rgba(12, 12, 12, 0.65)),
+    url("./img/winter-670314_1920.jpg");
+  background-position: bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+  margin-bottom: 0;
+}
+
+a {
+  color: #c21a1a;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #a50505;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.base-color {
+  color: #c21a1a;
+}
+
+.base-bg-color {
+  background-color: #c21a1a;
+}
+
+.no-border {
+  border: none;
+}
+
+.CardTitle {
+  font-size: 1.6em !important;
+  font-weight: bold !important;
+}
+
+.card-subtitle {
+  font-weight: 400 !important;
+  font-size: 1.2em !important;
+}
+
+.contact-card {
+  padding: 25px !important;
+  border-radius: 1px;
+}
+
+.form-group {
+  margin-bottom: 0.7rem !important;
+}
+
+.form-control {
+  height: calc(2.9rem + 2px) !important;
+  border-radius: 1px;
+}
+
+.form-check-label {
+  line-height: 1em !important;
+}
+
+.form-check-label small {
+  font-weight: 600 !important;
+}
+
+.form-check-input {
+  position: relative;
+  top: 2px;
+  margin-right: 6px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.lh-m {
+  line-height: 1em;
+}
+
+.lh-m small {
+  font-size: 75% !important;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: rgba(194, 26, 26, 1);
+  box-shadow: none;
+  outline: 0 none;
+}
+
+.btn-send {
+  padding: 11px;
+  border-radius: 1px !important;
+}
+
+.logo {
+  height: 70px;
+  margin-top: 25px;
+}
+
+[data-feedback].error {
+  color: red;
+  color: red;
+  position: relative;
+  top: -9px;
+  font-size: 14px;
+}
+
+.privacy-card,
+.thank-you-card {
+  padding: 3rem 4rem;
+  border-radius: 0 !important;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 4px 0px;
+}
+
+.react-cookie-banner {
+  position: fixed;
+}
+
+.absolute-bottom-left {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 0 !important;
+  margin-bottom: 0;
+}
+
+.absolute-bottom-left p {
+  margin-bottom: 0 !important;
+  color: #ddd;
+}
+
+.absolute-bottom-left a {
+  color: #ddd;
+}
+
+.absolute-bottom-left a:hover {
+  color: #c21a1a !important;
+}
+
+.shadowed-text {
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+    1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 1rem 2rem !important;
+  }
+}
+
+@media (min-width: 1020px) {
+  .left-content {
+    margin-top: 120px;
+  }
+}
