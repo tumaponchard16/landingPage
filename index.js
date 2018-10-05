@@ -13,7 +13,7 @@ app.post("/api/form", (req, res) => {
       <li>Name: ${req.body.name}</li>
       <li>Email: ${req.body.email}</li>
       <li>Phone: ${req.body.number}</li>
-      <li>Zip Code: ${req.body.address}</li>
+      <li>Address: ${req.body.address}</li>
   <ul>
   `;
   // create reusable transporter object using the default SMTP transport

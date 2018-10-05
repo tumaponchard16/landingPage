@@ -8,7 +8,7 @@ class PrivacyPolicy extends Component {
       <div className="jumbotron">
         <div className="container mt-5 mb-5">
           <div className="row">
-            <div className="col-md-10 mx-auto">
+            <div className="col-md-10 mx-auto pp-div">
               <div className="mb-2">
                 <h4>
                   <Link to="/">

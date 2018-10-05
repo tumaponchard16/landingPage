@@ -161,6 +161,34 @@ input[type="email"]:focus {
   }
 }
 
+@media (max-width: 991px) {
+  .main-div,
+  .pp-div {
+    flex: auto !important;
+    max-width: 100% !important;
+  }
+
+  .f-div {
+    margin-bottom: 2rem;
+  }
+
+  .f-div .absolute-bottom-left {
+    display: none;
+  }
+
+  .s-div .absolute-bottom-left {
+    display: block !important;
+  }
+
+  .s-div .bottom-show {
+    margin-top: 40px;
+  }
+
+  .pp-div .privacy-card {
+    padding: 1.5rem;
+  }
+}
+
 @media (max-width: 1019px) {
   .left-content {
     margin-top: 60px;

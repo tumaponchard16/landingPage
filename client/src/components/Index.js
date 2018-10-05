@@ -9,7 +9,7 @@ class Index extends Component {
       <div className="jumbotron">
         <div className="container">
           <div className="row">
-            <div className="col-md-7 col-sm-12 text-white">
+            <div className="col-md-7 main-div f-div text-white">
               <img src={logo} alt="logo" className="logo img-fluid" />
               <div className="left-content">
                 <h4 className="base-color shadowed-text">
@@ -37,8 +37,19 @@ class Index extends Component {
               </div>
             </div>
 
-            <div className="col-md-5 col-sm-12">
+            <div className="col-md-5 main-div s-div">
               <Form />
+              <div className="bottom-show">
+                <div className="absolute-bottom-left">
+                  <p>
+                    <small> &copy; 2018 by Kaikki oikeudet pidätetään. </small>
+
+                    <Link to="/privacy-policy">
+                      <small>Tietosuojakäytännöt</small>
+                    </Link>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
