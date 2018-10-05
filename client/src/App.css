@@ -161,6 +161,16 @@ input[type="email"]:focus {
   }
 }
 
+@media (max-width: 1019px) {
+  .left-content {
+    margin-top: 60px;
+  }
+
+  .contact-card {
+    padding: 0 !important;
+  }
+}
+
 @media (min-width: 1020px) {
   .left-content {
     margin-top: 120px;

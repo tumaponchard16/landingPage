@@ -9,8 +9,8 @@ class Index extends Component {
       <div className="jumbotron">
         <div className="container">
           <div className="row">
-            <div className="col-md-7 text-white">
-              <img src={logo} alt="logo" className="logo" />
+            <div className="col-md-7 col-sm-12 text-white">
+              <img src={logo} alt="logo" className="logo img-fluid" />
               <div className="left-content">
                 <h4 className="base-color shadowed-text">
                   The window emptiness does not depend on the season
@@ -37,7 +37,7 @@ class Index extends Component {
               </div>
             </div>
 
-            <div className="col-md-5">
+            <div className="col-md-5 col-sm-12">
               <Form />
             </div>
           </div>
